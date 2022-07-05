@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.triptoparis{
+    text-align: center;
+    font-weight:bold;
+    font-size: 25px;
+}
+
+#back{
+    text-align:center;
+    margin-top:20px;
+    padding: 10px;
+}
+
+.card1{
+    margin-top: 10px;
+    border:1.5px solid red;
+    height: 45vh;
+    width:15%;
+    position: relative;
+    border-radius:8px;
+    box-shadow:5px 5px 10px grey;
+    margin: auto;
+
+}
+
+.div1{
+    position:absolute;
+    top:15px;
+    font-size:25px;
+    right:0;
+    width: 85%;
+    text-align:left;
+    height: 15%;
+    color:darkred;
+    border-bottom: 1px solid black;
+}
+.div2{
+    width:90%;
+    height:10%;
+    font-size: 22px;
+    color: deepskyblue;
+    text-align: right;
+    position:absolute;
+    top:35%;
+    font-weight: bold;
+    text-decoration: line-through;
+    margin-right:20px;
+
+}
+.div3{
+    width:90%;
+    height:10%;
+    position:absolute;
+    top:52%;
+    text-align: left;
+    font-size:22px;
+    margin-right:20px;
+}
+
+#circle{
+    position:absolute;
+    left:70%;
+    top: 200px;
+
+}
+
+.notshown{
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+
+.pop-up{
+    position:absolute;
+    left:37%;
+    top:30%;
+    height: 25vh;
+    width:27%;
+    border:1.5px solid red;
+    border-radius: 10px;
+    color:red;
+    font-size:18px;
+    box-shadow: 3px 3px 10px grey;
+    background-color: white;
+    padding:20px;
+}
+.add-new{
+    opacity: 0.7;
+    font-size: 17px;
+
+
+}
+.pop-upbar{
+    margin-top:20px;
+    border-radius: 4px;
+    width:85%;
+    height:27%;
+    border:1.5px solid red;
+    box-shadow:1px 1px 3px grey;
+
+}
+
+.pop-up-button{
+    width:25%;
+    height:20%;
+    margin-top: 18px;
+    color:white;
+    background-color: red;
+    border-radius: 20px;
+    border:none;
+    position:absolute;
+    left:135px;
+    
+}
+
